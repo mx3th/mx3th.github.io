@@ -23,7 +23,7 @@
 [[main]]
   identifier = "twitch"
   pre = "twitch"
-  url = "https://twitch.tv/mx3th"
+  url = "https://twitch.tv/"
   weight = 30
 
 #[[main]]
