@@ -8,15 +8,15 @@ rtl = false
 title = "Kelvin's Arcade"
 #  logo = "img/me.png"
 description = "Fighting game news and content."
-copyright = "© 2023 Kelvin M"
+copyright = "© 2023 Kelvin Moss"
 
 dateFormat = "2 January 2006"
 
 [author]
-  name = "Kelvin M"
+  name = "Kelvin Moss"
   image = "img/me.png"
-  headline = "Former professional fighting game player."
-  bio = "Former professional fighting game player."
+  headline = "Ex-pro fighting game player."
+  bio = "Ex-pro fighting game player."
   links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },
