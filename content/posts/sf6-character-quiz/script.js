@@ -18,6 +18,6 @@ function score() {
         character = "Ken";
     }
 
-    alert ("Your experience level is: " + exp + "\nYour playstyle is: " + style + "\nGender pref: " + gender + "\nYour character is: " + character)
+    alert ("Your experience level is: " + exp + "\nYour playstyle is: " + style + "\nYour characrer gender preference is: " + gender + "\nYour character is: " + character)
 
 }
