@@ -1,23 +1,69 @@
-function score() {
-    var exp = "none";
-    var style = "none";
-    
-    var character = "none";
+const chara = document.querySelectorAll('.chara');
 
-    quiz = document.forms.quiz.elements;
+chara.forEach(chara => {
+    chara.addEventListener('click', () => {
+        document.querySelector('.active')?.classList.remove('active');
+        chara.classList.add('active');
+    });
+});
 
-    exp = quiz.exp.value;
-    style = quiz.style.value;
-    gender = quiz.gender.value;
+const radios = document.querySelectorAll('input[type="radio"]');
 
-    if (exp == "new" & style == "rounded" & gender == "male") {
-        character = "Ryu";
+radios.forEach(radio => {
+  radio.addEventListener('change', () => {
+    document.querySelector('.active')?.classList.remove('active');
+    const selectedChara = document.querySelector(`label[for="${radio.id}"] .chara`);
+    if (radio.checked && selectedChara) {
+      selectedChara.classList.add('active');
     }
+  });
+});
 
-    if (exp == "modest" & style == "rounded" & gender == "male") {
-        character = "Ken";
+const form = document.querySelector('form');
+const result = document.createElement('h3');
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const q1 = form.q1.value;
+    const q2 = form.q2.value;
+    const q3 = form.q3.value;
+    const q4 = form.q4.value;
+    const q5 = form.q5.value;
+    const q6 = form.q6.value;
+    let character = '';
+    switch (q1 + q2 + q3 + q4 + q5 + q6) {
+        case 'bbryshn':
+        case 'bbryshm':
+        character = 'Ryu';
+        break;
+        case 'bbf':
+        character = 'Cammy';
+        case 'abm':
+        character = 'Ken';
+        break;
+        case 'ccc':
+        character = 'Minions';
+        break;
+        case 'abc':
+        character = 'Iron Man';
+        break;
+        case 'bac':
+        character = 'Batman';
+        break;
+        case 'cab':
+        character = 'Captain America';
+        break;
+        case 'acb':
+        character = 'Spider-Man';
+        break;
+        case 'bca':
+        character = 'Wonder Woman';
+        break;
+        default:
+        character = 'Please check if you have answered all the questions';
+        result.textContent = character + '!';
+        form.appendChild(result);
+        return;
     }
-
-    alert ("Your experience level is: " + exp + "\nYour playstyle is: " + style + "\nYour characrer gender preference is: " + gender + "\nYour character is: " + character)
-
-}
+    result.textContent = `Your result is... ${character}!`;
+    form.appendChild(result);
+    });

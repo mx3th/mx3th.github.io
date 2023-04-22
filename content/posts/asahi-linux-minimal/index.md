@@ -111,11 +111,11 @@ After that simply login from your display manager and you're ready to start usin
 
 ## Thoughts on Asahi Linux
 
-Overall my experience on Asahi Linux has been a positive one. There are some caveats you need to be aware of though, the speakers, the keyboard backlight and the top notch are all not working correctly for example, but in my opinion these are all minor issues.
+Overall my experience on Asahi Linux has been a positive one. There are some caveats you need to be aware of though, the speakers, the keyboard backlight and the dynamic notch are all not working correctly for example (Asahi crops the aspect ratio to 16:9 to avoid the notch area), but in my opinion these are all minor issues.
 
 The bigger issues lie within the ARM64 platform however, specifically with the lack of packages available. One of the biggest issues I encountered whilst using Asahi Linux was the lack of DRM content support. This is because there is no AArch64 build of `Widevine`, which is the proprietary digital rights management (DRM) technology from Google used by the Chromium and Firefox web browsers. I often like to have Spotify open whilst I code, and since their is no client available on AArch64 either, the web browser is your only option (and it doesn't work).
 
-EDIT: I did actually find a workaround using `spotify-tui` and `spotifyd`, but the lack of DRM support will still effect many other services.
+EDIT: I did actually find a workaround using `spotify-tui` and `spotifyd`, but the lack of DRM support will still effect many other services like Amazon Prime, Netflix, etc.
 
 I also could not compile a `Wayland` version of `emacs` on AArch64 either, the native version runs through `XWayland` which can look blurry depending on the level of scaling on your display (and you will need some level of scaling if you're using a Macbook display). It is pretty frustrating to go through the process of installing Linux for a better coding experience, and then have to use an alternative to your favourite text editor, but unfortunately, `XWayland` apps are just far too blurry to be useable.
 

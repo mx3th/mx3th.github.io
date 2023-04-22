@@ -1,0 +1,32 @@
+.character__select__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.character__select__list label {
+    width: 25%;
+    position: relative;
+    padding: 5px;
+}
+
+.character__select__list input[type="radio"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+.chara {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10%;
+    margin: 0%;
+    width: 100%;
+    filter: grayscale(1);
+}
+
+.chara:hover {
+    filter: grayscale(0);
+}
+
+.active {
+    filter: grayscale(0);
+}
