@@ -41,7 +41,7 @@ Choose the option that best suits you.
   </label><br>
   <label>
     <input type="radio" name="q2" value="p">
-    Power. I don't mind being slow! I like being tanky & strong!
+    Power. I like character's that are strong and excel up-close!
   </label><br>
   <label>
     <input type="radio" name="q2" value="s">
