@@ -178,6 +178,78 @@ form.addEventListener('submit', (event) => {
             likes = 'Worthy opponents, ossobuco, fine arts';
             dislikes = 'Heights';
         break;
+        case '1bzashn':
+            character = 'Zangief';
+            img.src = 'img/zangief.png';
+            bio.textContent = "A colossal wrestler nicknamed the Red Cyclone. Zangief is dedicated to physical improvement and instructing his students.";
+            paragraph.textContent = "Zangief is the original grappler, he's all about close range fighting. Whilst he might struggle with closing the gap against ranged fighters, he makes up for it once he gets in with his extremely powerful command throws, one opening is all he needs to win the game in an instant. Zangief is recommended for patient players who want to outsmart their opponents with mind-games and deal insane damage!";
+            videoSrc = 'https://www.youtube.com/embed/o6caXwwXbjk';
+            height = "7'0";
+            weight = "399 lbs";
+            birthplace = 'Russia';
+            likes = 'Wrestling, Cossack dancing';
+            dislikes = 'Projectiles (Hadokens, etc.)';
+        break;
+        case '1bdhshn':
+            character = 'Dhalsim';
+            img.src = 'img/dhalsim.png';
+            bio.textContent = "A monk and yoga master from India who has served as a guide for countless suffering souls. Prefers to avoid conflict when possible, but his innate hatred of evil compels him to dispense stern justice.";
+            paragraph.textContent = "Dhalsim is a ranged fighter, and an alternative for players who are not comfortable playing the fireball game. Dhalsim's method of zoning is through his far reaching normal attacks, thanks to his stretchy limbs. Dhalsim is simple mechanically, so he is a good choice for beginners who want to play a defensive style, whilst reading the opponents actions well.";
+            videoSrc = 'https://www.youtube.com/embed/EELQyo7FX4k';
+            height = "5'9 (can vary)";
+            weight = "106 lbs (can vary)";
+            birthplace = 'India';
+            likes = 'Meditating';
+            dislikes = 'Distractions, harming others';
+        break;
+        case '1blishn':
+            character = 'Lily';
+            img.src = 'img/lily.png';
+            bio.textContent = "A descendant of the Thunderfoot tribe, Lily speaks with the spirits of nature, trusting in their guidance as she travels the globe. Don't judge a book by its cover—her small stature conceals truly titanic power.";
+            paragraph.textContent = "Lily is a mid-ranged fighter, she controls space well with her far reaching normals thanks to her two war clubs. She also uses wind based attacks to control the air, wind based moves allow her to carry the opponent into corner easily. Lily is a great choice for beginners who want a strong mid-range / poke style of gameplay.";
+            videoSrc = 'https://www.youtube.com/embed/JMgyoSS6hO8';
+            height = "5'3";
+            weight = "106 lbs";
+            birthplace = 'Mexico';
+            likes = 'Lies';
+            dislikes = 'Cameras, birds of prey';
+        break;
+        case '1bdjshn':
+            character = 'Dee Jay';
+            img.src = 'img/deejay.png';
+            bio.textContent = "A globally popular dance music superstar, Dee Jay is always ready to have a good time. With a burning love for music and fighting, this Jamaican sensation drives audiences wild with hot new songs and stylish moves.";
+            paragraph.textContent = "Dee Jay is a mid to far ranged fighter. He has moves similar to Guile, like his 'Max Out' fireball which is done by holding back then pressing forward + punch (like Guile's 'Sonic Boom'). However, whilst Dee Jay's projectile game is not as strong he makes up for it by having better offence and ways to approach the opponent. Use his 'Rolling Sobat', an advancing kick move, to close the gap and start pressuring your opponent. Dee Jay is a straight forward character, recommended for players who want a mix between ranged and midranged fighting.";
+            videoSrc = 'https://www.youtube.com/embed/zeykLp88FqU';
+            height = "6'0";
+            weight = "203 lbs";
+            birthplace = 'Jamaica';
+            likes = 'Singing, dancing, hollering';
+            dislikes = 'Silence';
+        break;
+        case '1behshn':
+            character = 'E. Honda';
+            img.src = 'img/ehonda.png';
+            bio.textContent = "A sumo wrestler looking to bring the sport worldwide, E. Honda has the skills of a yokozuna, but his constant globetrotting has prevented his promotion. Also an expert chef renowned for mouthwatering chanko stew.";
+            paragraph.textContent = "E. Honda is a turtle style grappler, many opponents will struggle with opproaching E. Honda, making him almost like an advancing wall. Use his powerful 'Hundred Hand Slap' and 'Sumo Headbutt' special moves to pressure the opponent, once you get close, use an unblockable command throw! E. Honda is a straight-forward character recommended for defensive players who want a grappling style of play.";
+            videoSrc = 'https://www.youtube.com/embed/YWp8cFo5IFc';
+            height = "6'1";
+            weight = "302 lbs";
+            birthplace = 'Japan';
+            likes = 'Baths';
+            dislikes = 'Indecisiveness';
+        break;
+        case '1bjpshn':
+            character = 'JP';
+            img.src = 'img/jp.png';
+            bio.textContent = "Head of an international NGO responsible for many successful investment projects, and the man behind Nayshall's present prosperity. Has a beloved cat named Cybele.";
+            paragraph.textContent = "JP is a ranged fighter, and the main villain of Street Fighter 6. JP can control the entire screen with ease, especially with Departure, a Special Move that places voids of power in the air. He can then activate the thorns inside or teleport at their location. JP is a technical character, with extemely poweful zoning and mix-up options when he knocks the opponent down. JP is recommended for advanced players who want a versatile move set.";
+            videoSrc = 'https://www.youtube.com/embed/UMZq8Ycgo6U';
+            height = "6'3";
+            weight = "214 lbs";
+            birthplace = 'Russia';
+            likes = 'Chess puzzles, cleaning, local cuisines';
+            dislikes = 'Stains on his clothes, sleep';
+        break;
         default:
             character = 'Please check if you have answered all the questions';
             result.textContent = character + '!';

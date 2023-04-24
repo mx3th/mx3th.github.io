@@ -177,7 +177,7 @@ I don't know / mind.
 
   <label>
     <input type="radio" name="q5" value="h">
-    I like to play good characters.
+    I like to play good / heroic characters.
   </label></br>
   <label>
     <input type="radio" name="q5" value="v">
