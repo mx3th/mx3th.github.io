@@ -10,7 +10,7 @@ let videoLink = undefined;
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
-    const q1 = form.q1.value;
+/*     const q1 = form.q1.value; */
     const q2 = form.q2.value;
     const q3 = form.q3.value;
     const q4 = form.q4.value;
@@ -26,11 +26,15 @@ form.addEventListener('submit', (event) => {
 
     facts.innerHTML = '';
 
-    switch (q1 + q2 + q3 + q4 + q5 + q6) {
-        case '1bryshn':
-        case '1bryshm':
-        case '1pryshm':
-        case '1rryshm':
+    switch (/* q1 + */q2 + q3 + q4 + q5 + q6) {
+        case 'bryegm':
+        case 'bryegn':
+        case 'bryenm':
+        case 'bchegm':
+        case 'bchebm':
+        case 'bjuegm':
+        case 'bjuebm':
+        case 'bjuebn':
             character = 'Ryu';
             img.src = 'img/ryu.png';
             bio.textContent = "Ryu is a well-mannered and sincere martial artist. He travels the globe in search of worthy opponents. Having overcome the Satsui no Hado, he now seeks yet greater heights.";
@@ -42,10 +46,7 @@ form.addEventListener('submit', (event) => {
             likes = 'Martial arts';
             dislikes = 'Spiders';
         break;
-        case '1bkeshn':
-        case '1bkeshm':
-        case '1sryshn':
-        case '1sryshm':
+/*         case '1bkeshn':
             character = 'Ken';
             img.src = 'img/ken.png';
             bio.textContent = "Former US National Fighting Champ, and ex-VP of the Masters Foundation. Accusations of orchestrating a criminal plot have forced Ken to abandon his family and business and go into hiding.";
@@ -56,9 +57,18 @@ form.addEventListener('submit', (event) => {
             birthplace = 'United States of America';
             likes = 'Family';
             dislikes = 'Pointless meetings';
-        break;
-        case '1bchshn':
-        case '1bchshm':
+        break; */
+        case 'bryhgf':
+        case 'brymgf':
+        case 'bchegf':
+        case 'bchegn':
+        case 'bchhgf':
+        case 'bchhgn':
+        case 'bchmgf':
+        case 'bchmgn':
+        case 'bluhgf':
+        case 'bjuhgf':
+        case 'bjuhgn':
             character = 'Chun';
             img.src = 'img/chunli.png';
             bio.textContent = "A former high-kicking ICPO agent, Chun-Li looks after Li-Fen, a victim of the Black Moon Incident. With Shadaloo sundered, she now runs kung fu classes, and has become a well-loved member of the local community.";
@@ -70,7 +80,25 @@ form.addEventListener('submit', (event) => {
             likes = 'Days off, shopping with Li-Fen';
             dislikes = 'Crime, indecisiveness';
         break;
-        case '1bjushn':
+        case 'bryhbf':
+        case 'brymbf':
+        case 'bchebf':
+        case 'bchebn':
+        case 'bchhbf':
+        case 'bchhbn':
+        case 'bchmbf':
+        case 'bchmbn':
+        case 'bluhbf':
+        case 'bjuhbf':
+        case 'bjuhbn':
+        case 'bjumgf':
+        case 'bjumgn':
+        case 'bjumbf':
+        case 'bjumbn':
+        case 'bjahbf':
+        case 'bjahbn':
+        case 'bkihbf':
+        case 'bkihbn':
             character = 'Juri';
             img.src = 'img/juri.png';
             bio.textContent = "This sadistic thrillseeker enjoys the strife and suffering of others, taking immense joy in obliterating her foes.";
@@ -82,7 +110,26 @@ form.addEventListener('submit', (event) => {
             likes = 'Motorcycles, spiders';
             dislikes = "Buzzkills, rules";
         break;
-        case '1blushn':
+        case 'bryhgm':
+        case 'bryhgn':
+        case 'brymgm':
+        case 'brymgn':
+        case 'bchhgm':
+        case 'bchmgm':
+        case 'bchmbm':
+        case 'bluegm':
+        case 'bluegn':
+        case 'bluebm':
+        case 'bluebn':
+        case 'bluhgm':
+        case 'bluhgn':
+        case 'bluhbn':
+        case 'blumgm':
+        case 'blumgn':
+        case 'blumbm':
+        case 'blumbn':
+        case 'bjuhgm':
+        case 'bjumgm':
             character = 'Luke';
             img.src = 'img/luke.png';
             bio.textContent = "A contractor for a PMC, Luke uses his elite military background to teach mixed martial arts. His days off are spent eating junk food, playing video games, and fighting, but make no mistake—Luke plays to win.";
@@ -94,7 +141,22 @@ form.addEventListener('submit', (event) => {
             likes = 'Travelling, PC games, wacky T-shirts';
             dislikes = 'Horror games';
         break;
-        case '1bjashn':
+        case 'bjaegm':
+        case 'bjaegn':
+        case 'bjaebm':
+        case 'bjaebn':
+        case 'bjahgm':
+        case 'bjahgn':
+        case 'bjahbm':
+        case 'bjamgm':
+        case 'bjamgn':
+        case 'bjambm':
+        case 'bjambn':
+        case 'bkiegm':
+        case 'bkiebm':
+        case 'bkihgm':
+        case 'bkimgm':
+        case 'bkimbm':
             character = 'Jamie';
             img.src = 'img/jamie.png';
             bio.textContent = "This self-styled Chinatown peacekeeper aspires to the example set by Yun and Yang, the Twin Dragons. An expert dancer, Jamie places justice and friendship above all else, defending his town with martial skill.";
@@ -107,6 +169,19 @@ form.addEventListener('submit', (event) => {
             dislikes = "Getting lectured, arrogance";
         break;
         case '1bkishn':
+        case 'bjahgf':
+        case 'bjamgf':
+        case 'bjambf':
+        case 'bkiegf':
+        case 'bkiegn':
+        case 'bkiebf':
+        case 'bkiebn':
+        case 'bkihgf':
+        case 'bkihgn':
+        case 'bkimgf':
+        case 'bkimgn':
+        case 'bkimbf':
+        case 'bkimbn':
             character = 'Kimberly';
             img.src = 'img/kimberly.png';
             bio.textContent = "Uninvited student to Guy, the 39th successor to Bushinryu. Kimberly had an ordinary upbringing, but she's a genuine prodigy who graduated college early...and now wants to be a ninja. Loves '80s pop culture.";
@@ -118,7 +193,12 @@ form.addEventListener('submit', (event) => {
             likes = "80's music, sneakers, large numbers";
             dislikes = "Tear-jerker movies";
         break;
-        case '1bcashn':
+        case 'bluegf':
+        case 'blumgf':
+        case 'bjuegf':
+        case 'bjuegn':
+        case 'bjaegf':
+        case 'bjaebf':
             character = 'Cammy';
             img.src = 'img/cammy.png';
             bio.textContent = "Member of British special forces unit Delta Red. Distinguished herself in the operation against Shadaloo, with which she shares a fated connection. Hyper-competent but somewhat moody.";
@@ -130,7 +210,7 @@ form.addEventListener('submit', (event) => {
             likes = 'Cats';
             dislikes = "Everything (if she's grumpy)";
         break;
-        case '1bgushn':
+/*         case '1bgushn':
             character = 'Guile';
             img.src = 'img/guile.png';
             bio.textContent = "A US Air Force pilot who fights for his country, Guile succeeded in dismantling Shadaloo and avenging his friend Charlie. He enjoys living the family man life, but new battlefields await him.";
@@ -141,8 +221,8 @@ form.addEventListener('submit', (event) => {
             birthplace = "United States of America";
             likes = "Watching sports, dog walking";
             dislikes = "Secretive people, layabouts";
-        break;
-        case '1bblshn':
+        break; */
+/*         case '1bblshn':
             character = 'Blanka';
             img.src = 'img/blanka.png';
             bio.textContent = "A kindhearted defender of nature, Blanka has become an adventure tour guide, confident his intimate knowledge of the jungle will serve as a springboard to fame—and a comfortable life for his beloved mother.";
@@ -153,8 +233,19 @@ form.addEventListener('submit', (event) => {
             birthplace = "Brazil";
             likes = "Samantha, Blanka-chan dolls";
             dislikes = "Army ants";
-        break;
-        case '1bmashn':
+        break; */
+        case 'bmaegf':
+        case 'bmaegn':
+        case 'bmaebf':
+        case 'bmaebn':
+        case 'bmahgf':
+        case 'bmahgn':
+        case 'bmahbf':
+        case 'bmahbn':
+        case 'bmamgf':
+        case 'bmamgn':
+        case 'bmambf':
+        case 'bmambn':
             character = 'Manon';
             img.src = 'img/manon.png';
             bio.textContent = "A super model and world champion judoka, Manon is an idealist, forever seeking self-improvement in the pursuit of beauty. She struts the catwalk of street fighting to become the world's strongest model.";
@@ -166,7 +257,18 @@ form.addEventListener('submit', (event) => {
             likes = "The color gold, cosmetics, her family";
             dislikes = "Crowds, chatterboxes";
         break;
-        case '1bmrshf':
+        case 'bryegf':
+        case 'bryebf':
+        case 'bryebn':
+        case 'bluebf':
+        case 'blumbf':
+        case 'bjuebf':
+        case 'bzaegf':
+        case 'bzaebf':
+        case 'bzahgf':
+        case 'bzahbf':
+        case 'bzamgf':
+        case 'bzambf':
             character = 'Marisa';
             img.src = 'img/marisa.png';
             bio.textContent = "An up-and-coming jewelry designer from Italy who claims ancestry to ancient Greek warriors. As a child, she was inspired by a vision of the Colosseum in its prime.";
@@ -178,7 +280,23 @@ form.addEventListener('submit', (event) => {
             likes = 'Worthy opponents, ossobuco, fine arts';
             dislikes = 'Heights';
         break;
-        case '1bzashn':
+        case 'bzaegm':
+        case 'bzaegn':
+        case 'bzaebn':
+        case 'bzahgm':
+        case 'bzahgn':
+        case 'bzahbm':
+        case 'bzahbn':
+        case 'bzamgm':
+        case 'bzamgn':
+        case 'bzambm':
+        case 'bzambn':
+        case 'bmaegm':
+        case 'bmaebm':
+        case 'bmahgm':
+        case 'bmahbm':
+        case 'bmamgm':
+        case 'bmambm':
             character = 'Zangief';
             img.src = 'img/zangief.png';
             bio.textContent = "A colossal wrestler nicknamed the Red Cyclone. Zangief is dedicated to physical improvement and instructing his students.";
@@ -190,7 +308,8 @@ form.addEventListener('submit', (event) => {
             likes = 'Wrestling, Cossack dancing';
             dislikes = 'Projectiles (Hadokens, etc.)';
         break;
-        case '1bdhshn':
+        case 'bchevm':
+        case 'bzaebm':
             character = 'Dhalsim';
             img.src = 'img/dhalsim.png';
             bio.textContent = "A monk and yoga master from India who has served as a guide for countless suffering souls. Prefers to avoid conflict when possible, but his innate hatred of evil compels him to dispense stern justice.";
@@ -202,7 +321,7 @@ form.addEventListener('submit', (event) => {
             likes = 'Meditating';
             dislikes = 'Distractions, harming others';
         break;
-        case '1blishn':
+/*         case '1blishn':
             character = 'Lily';
             img.src = 'img/lily.png';
             bio.textContent = "A descendant of the Thunderfoot tribe, Lily speaks with the spirits of nature, trusting in their guidance as she travels the globe. Don't judge a book by its cover—her small stature conceals truly titanic power.";
@@ -213,8 +332,8 @@ form.addEventListener('submit', (event) => {
             birthplace = 'Mexico';
             likes = 'Lies';
             dislikes = 'Cameras, birds of prey';
-        break;
-        case '1bdjshn':
+        break; */
+/*         case '1bdjshn':
             character = 'Dee Jay';
             img.src = 'img/deejay.png';
             bio.textContent = "A globally popular dance music superstar, Dee Jay is always ready to have a good time. With a burning love for music and fighting, this Jamaican sensation drives audiences wild with hot new songs and stylish moves.";
@@ -225,8 +344,8 @@ form.addEventListener('submit', (event) => {
             birthplace = 'Jamaica';
             likes = 'Singing, dancing, hollering';
             dislikes = 'Silence';
-        break;
-        case '1behshn':
+        break; */
+/*         case '1behshn':
             character = 'E. Honda';
             img.src = 'img/ehonda.png';
             bio.textContent = "A sumo wrestler looking to bring the sport worldwide, E. Honda has the skills of a yokozuna, but his constant globetrotting has prevented his promotion. Also an expert chef renowned for mouthwatering chanko stew.";
@@ -237,8 +356,17 @@ form.addEventListener('submit', (event) => {
             birthplace = 'Japan';
             likes = 'Baths';
             dislikes = 'Indecisiveness';
-        break;
-        case '1bjpshn':
+        break; */
+        case 'bryebm':
+        case 'bryhbm':
+        case 'bryhbn':
+        case 'brymbm':
+        case 'brymbn':
+        case 'bchhbm':
+        case 'bluhbm':
+        case 'bjuhbm':
+        case 'bjumbm':
+        case 'bkihbm':
             character = 'JP';
             img.src = 'img/jp.png';
             bio.textContent = "Head of an international NGO responsible for many successful investment projects, and the man behind Nayshall's present prosperity. Has a beloved cat named Cybele.";
