@@ -8,12 +8,12 @@ rtl = false
 title = "Kelvin's Arcade"
 #  logo = "img/me.png"
 description = "Fighting game news and content."
-copyright = "© 2023 Kelvin Moss"
+copyright = "© 2023 Kelvin A."
 
 dateFormat = "2 January 2006"
 
 [author]
-  name = "Kelvin Moss"
+  name = "Kelvin A."
   image = "img/me.png"
   headline = "Ex-pro fighting game player."
   bio = "Ex-pro fighting game player."
@@ -55,7 +55,7 @@ dateFormat = "2 January 2006"
 #     { telegram = "https://t.me/username" },
 #     { tiktok = "https://tiktok.com/@username" },
 #     { tumblr = "https://username.tumblr.com" },
-    { twitch = "https://www.twitch.tv/" },
+#     { twitch = "https://www.twitch.tv/" },
 #     { twitter = "https://twitter.com/username" },
 #     { whatsapp = "https://wa.me/phone-number" },
 #     { youtube = "https://youtube.com/username" },

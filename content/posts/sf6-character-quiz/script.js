@@ -35,6 +35,27 @@ form.addEventListener('submit', (event) => {
         case 'bjuegm':
         case 'bjuebm':
         case 'bjuebn':
+        case 'bmregm':
+        case 'bjpegm':
+        case 'bjpegn':
+        case 'bjpebm':
+        case 'bjpebn':
+        case 'b00egm':
+        case 'b00egn':
+        case 'pryegm':
+        case 'pryegn':
+        case 'pryhgm':
+        case 'pryhgn':
+        case 'prymgm':
+        case 'prymgn':
+        case 'pchegm':
+        case 'pchebm':
+        case 'pchebn':
+        case 'pcaegm':
+        case 'pcaebm':
+        case 'pchhbm':
+        case 'pchmgm':
+        case 'pluegm':
             character = 'Ryu';
             img.src = 'img/ryu.png';
             bio.textContent = "Ryu is a well-mannered and sincere martial artist. He travels the globe in search of worthy opponents. Having overcome the Satsui no Hado, he now seeks yet greater heights.";
@@ -69,7 +90,22 @@ form.addEventListener('submit', (event) => {
         case 'bluhgf':
         case 'bjuhgf':
         case 'bjuhgn':
-            character = 'Chun';
+        case 'bdhegf':
+        case 'bdhhgf':
+        case 'bdhhbf':
+        case 'bdhmgf':
+        case 'bjpegf':
+        case 'bjpebf':
+        case 'bjphgf':
+        case 'bjpmgf':
+        case 'bjpmgn':
+        case 'b00hgf':
+        case 'b00mgf':
+        case 'pchegn':
+        case 'pchhgf':
+        case 'pchhgn':
+        case 'pchhbn':
+            character = 'Chun-Li';
             img.src = 'img/chunli.png';
             bio.textContent = "A former high-kicking ICPO agent, Chun-Li looks after Li-Fen, a victim of the Black Moon Incident. With Shadaloo sundered, she now runs kung fu classes, and has become a well-loved member of the local community.";
             paragraph.textContent = "Chun-Li is a technical character with multiple move-sets based on her stance. She is very versatile and can handle all ranges of play exceptionally well, thanks to her far reaching normal attacks, and her iconic 'Spinning Bird Kick' for when up close. Despite her technical aspects, Chun-Li is still very effective when using just the basics. Chun-Li is recommended for players who want a versatile character that can fight at any distance, and is easy to play but hard to master.";
@@ -99,6 +135,12 @@ form.addEventListener('submit', (event) => {
         case 'bjahbn':
         case 'bkihbf':
         case 'bkihbn':
+        case 'bcahbf':
+        case 'bcahbn':
+        case 'bjphbf':
+        case 'bjpmbf':
+        case 'b00hbf':
+        case 'pchhbf':
             character = 'Juri';
             img.src = 'img/juri.png';
             bio.textContent = "This sadistic thrillseeker enjoys the strife and suffering of others, taking immense joy in obliterating her foes.";
@@ -130,6 +172,35 @@ form.addEventListener('submit', (event) => {
         case 'blumbn':
         case 'bjuhgm':
         case 'bjumgm':
+        case 'bcahgm':
+        case 'bcahbm':
+        case 'bcambm':
+        case 'bmrhgm':
+        case 'bmrhgn':
+        case 'bmrhbm':
+        case 'bmrhbn':
+        case 'bmrmgm':
+        case 'bmrmbm':
+        case 'bjpmgm':
+        case 'pcahbm':
+        case 'b00ebm':
+        case 'b00hgm':
+        case 'b00hgn':
+        case 'b00mgm':
+        case 'pcamgm':
+        case 'b00mgn':
+        case 'pchhgm':
+        case 'pchmbm':
+        case 'pcambm':
+        case 'pcahgm':
+        case 'pluhgm':
+        case 'pluhgn':
+        case 'pluhbm':
+        case 'pluhbn':
+        case 'plumgm':
+        case 'plumgn':
+        case 'plumbm':
+        case 'plumbn':
             character = 'Luke';
             img.src = 'img/luke.png';
             bio.textContent = "A contractor for a PMC, Luke uses his elite military background to teach mixed martial arts. His days off are spent eating junk food, playing video games, and fighting, but make no mistake—Luke plays to win.";
@@ -157,6 +228,32 @@ form.addEventListener('submit', (event) => {
         case 'bkihgm':
         case 'bkimgm':
         case 'bkimbm':
+        case 'bcaegm':
+        case 'bcaebm':
+        case 'bcamgm':
+        case 'pjuegm':
+        case 'pjuegn':
+        case 'pjuebm':
+        case 'pjuebn':
+        case 'pjuhgm':
+        case 'pjuhbn':
+        case 'pjumgn':
+        case 'pjumgm':
+        case 'pjumbn':
+        case 'pjaegm':
+        case 'pjaebm':
+        case 'pjaegn':
+        case 'pjaebn':
+        case 'pjahgn':
+        case 'pjamgn':
+        case 'pjuhgn':
+        case 'pjambm':
+        case 'pjambn':
+        case 'pkimbm':
+        case 'pjamgm':
+        case 'pkimgm':
+        case 'pjahbn':
+        case 'pjahgm':
             character = 'Jamie';
             img.src = 'img/jamie.png';
             bio.textContent = "This self-styled Chinatown peacekeeper aspires to the example set by Yun and Yang, the Twin Dragons. An expert dancer, Jamie places justice and friendship above all else, defending his town with martial skill.";
@@ -175,13 +272,23 @@ form.addEventListener('submit', (event) => {
         case 'bkiegf':
         case 'bkiegn':
         case 'bkiebf':
+        case 'pkimgn':
+        case 'pkimgf':
+        case 'pkimbn':
+        case 'pkimbf':
         case 'bkiebn':
         case 'bkihgf':
         case 'bkihgn':
         case 'bkimgf':
         case 'bkimgn':
         case 'bkimbf':
+        case 'pkihgf':
+        case 'pkihbf':
+        case 'pkihbn':
+        case 'pkihgn':
         case 'bkimbn':
+        case 'bcahgf':
+        case 'bcahgn':
             character = 'Kimberly';
             img.src = 'img/kimberly.png';
             bio.textContent = "Uninvited student to Guy, the 39th successor to Bushinryu. Kimberly had an ordinary upbringing, but she's a genuine prodigy who graduated college early...and now wants to be a ninja. Loves '80s pop culture.";
@@ -199,6 +306,29 @@ form.addEventListener('submit', (event) => {
         case 'bjuegn':
         case 'bjaegf':
         case 'bjaebf':
+        case 'bcaegf':
+        case 'bcaegn':
+        case 'bcaebf':
+        case 'bcaebn':
+        case 'bcamgf':
+        case 'bcamgn':
+        case 'bcambf':
+        case 'bcambn':
+        case 'b00egf':
+        case 'pcaegf':
+        case 'pcaegn':
+        case 'pcaebf':
+        case 'pcaebn':
+        case 'pcahgf':
+        case 'pcahgn':
+        case 'pcahbf':
+        case 'pcahbn':
+        case 'pcamgf':
+        case 'pcamgn':
+        case 'pcambf':
+        case 'pcambn':
+        case 'b00ebf':
+        case 'b00ebn':
             character = 'Cammy';
             img.src = 'img/cammy.png';
             bio.textContent = "Member of British special forces unit Delta Red. Distinguished herself in the operation against Shadaloo, with which she shares a fated connection. Hyper-competent but somewhat moody.";
@@ -242,10 +372,77 @@ form.addEventListener('submit', (event) => {
         case 'bmahgn':
         case 'bmahbf':
         case 'bmahbn':
+        case 'pkiebf':
         case 'bmamgf':
         case 'bmamgn':
         case 'bmambf':
+        case 'pjahgf':
         case 'bmambn':
+        case 'pryhgf':
+        case 'pjaebf':
+        case 'pjambf':
+        case 'pkiebn':
+        case 'pryhbf':
+        case 'prymgf':
+        case 'prymbf':
+        case 'prymbn':
+        case 'pchegf':
+        case 'pchebf':
+        case 'pchmgf': 
+        case 'pchmgn':
+        case 'pchmbf':
+        case 'pchmbn':
+        case 'pluhgf':
+        case 'pjahbf':
+        case 'pjaegf':
+        case 'pluhbf':
+        case 'plumgf':
+        case 'plumbf':
+        case 'pmaegf':
+        case 'pmaegn':
+        case 'pmaebf':
+        case 'pmaebn':
+        case 'pmahgf':
+        case 'pmahgn':
+        case 'pmahbf':
+        case 'pmahbn':
+        case 'pmamgf':
+        case 'pmamgn':
+        case 'pmambf':
+        case 'pmambn':
+        case 'pjuegf':
+        case 'pjumbf':
+        case 'pkiegn':
+        case 'pkiegf':
+        case 'pzamgf':
+        case 'pjuhgf':
+        case 'pzahbf':
+        case 'pjamgf':
+        case 'pjuebf':
+        case 'pzaebf':
+        case 'pdhebf':
+        case 'pzaegf':
+        case 'pzambf':
+        case 'pjuhbf':
+        case 'pzahgf':
+        case 'p00mgf':
+        case 'p00hgn':
+        case 'pdhegf':
+        case 'pjpegf':
+        case 'pjumgf':
+        case 'p00mbn':
+        case 'pdhhgf':
+        case 'pdhhbf':
+        case 'p00mbf':
+        case 'p00egf':
+        case 'pjphgf':
+        case 'pjpmgf':
+        case 'p00hgf':
+        case 'pdhmgf':
+        case 'p00mgn':
+        case 'pdhmbf':
+        case 'pjpmbf':
+        case 'pjphbf':
             character = 'Manon';
             img.src = 'img/manon.png';
             bio.textContent = "A super model and world champion judoka, Manon is an idealist, forever seeking self-improvement in the pursuit of beauty. She struts the catwalk of street fighting to become the world's strongest model.";
@@ -259,16 +456,51 @@ form.addEventListener('submit', (event) => {
         break;
         case 'bryegf':
         case 'bryebf':
+        case 'pjpebf':
         case 'bryebn':
         case 'bluebf':
         case 'blumbf':
         case 'bjuebf':
         case 'bzaegf':
+        case 'p00ebf':
         case 'bzaebf':
         case 'bzahgf':
         case 'bzahbf':
         case 'bzamgf':
         case 'bzambf':
+        case 'p00hbf':
+        case 'bdhebf':
+        case 'bdhmbf':
+        case 'bmregf':
+        case 'bmregn':
+        case 'bmrebf':
+        case 'bmrebn':
+        case 'bmrhgf':
+        case 'bmrhbf':
+        case 'bmrmgf':
+        case 'bmrmgn':
+        case 'bmrmbf':
+        case 'bmrmbn':
+        case 'pmrhgf':
+        case 'b00mbf':
+        case 'b00mbn':
+        case 'pmrebn':
+        case 'pmregf':
+        case 'pryegf':
+        case 'pmrmgn':
+        case 'pmregn':
+        case 'pmrmgf':
+        case 'pmrhbn':
+        case 'pmrmbn':
+        case 'pmrhbf':
+        case 'pryebf':
+        case 'pryebn':
+        case 'pmrmbf':
+        case 'pmrebf':
+        case 'pluegf':
+        case 'pluegn':
+        case 'pluebf':
+        case 'pluebn':
             character = 'Marisa';
             img.src = 'img/marisa.png';
             bio.textContent = "An up-and-coming jewelry designer from Italy who claims ancestry to ancient Greek warriors. As a child, she was inspired by a vision of the Colosseum in its prime.";
@@ -282,21 +514,73 @@ form.addEventListener('submit', (event) => {
         break;
         case 'bzaegm':
         case 'bzaegn':
+        case 'pmrhgm':
+        case 'pmrhgn':
+        case 'pzamgm':
+        case 'pmrhbm':
+        case 'pzahbn':
+        case 'pmrebm':
         case 'bzaebn':
         case 'bzahgm':
         case 'bzahgn':
         case 'bzahbm':
+        case 'pmregm':
+        case 'pmrmbm':
+        case 'pzaegn':
+        case 'pmrmgm':
         case 'bzahbn':
+        case 'pzahgm':
         case 'bzamgm':
         case 'bzamgn':
         case 'bzambm':
+        case 'pzahbm':
+        case 'pzahgn':
         case 'bzambn':
         case 'bmaegm':
         case 'bmaebm':
         case 'bmahgm':
+        case 'pzaebn':
         case 'bmahbm':
         case 'bmamgm':
         case 'bmambm':
+        case 'pzaebm':
+        case 'bzaebm':
+        case 'bmrebm':
+        case 'pryebm':
+        case 'pmambm':
+        case 'pryhbm':
+        case 'pzamgn':
+        case 'pzambm':
+        case 'pmahbm':
+        case 'pryhbn':
+        case 'p00hgm':
+        case 'pzambn':
+        case 'prymbm':
+        case 'pmaegm':
+        case 'pmaebm':
+        case 'pmahgm':
+        case 'pdhebn':
+        case 'pmamgm':
+        case 'p00hbn':
+        case 'pjumbm':
+        case 'pkihgm':
+        case 'pkiebm':
+        case 'pjahbm':
+        case 'p00mgm':
+        case 'pdhebm':
+        case 'pdhegn':
+        case 'pkihbm':
+        case 'p00hbm':
+        case 'pluebm':
+        case 'pzaegm':
+        case 'pjuhbm':
+        case 'pkiegm':
+        case 'p00egm':
+        case 'p00egn':
+        case 'p00ebn':
+        case 'p00mbm':
+        case 'p00ebm':
+        case 'pdhegm':
             character = 'Zangief';
             img.src = 'img/zangief.png';
             bio.textContent = "A colossal wrestler nicknamed the Red Cyclone. Zangief is dedicated to physical improvement and instructing his students.";
@@ -308,8 +592,16 @@ form.addEventListener('submit', (event) => {
             likes = 'Wrestling, Cossack dancing';
             dislikes = 'Projectiles (Hadokens, etc.)';
         break;
-        case 'bchevm':
-        case 'bzaebm':
+        case 'bchebm':
+        case 'bdhegn':
+        case 'bdhebm':
+        case 'bdhebn':
+        case 'bdhhgm':
+        case 'bdhhgn':
+        case 'bdhmgm':
+        case 'bdhmgn':
+        case 'bdhmbm':
+        case 'bdhmbn':
             character = 'Dhalsim';
             img.src = 'img/dhalsim.png';
             bio.textContent = "A monk and yoga master from India who has served as a guide for countless suffering souls. Prefers to avoid conflict when possible, but his innate hatred of evil compels him to dispense stern justice.";
@@ -358,15 +650,46 @@ form.addEventListener('submit', (event) => {
             dislikes = 'Indecisiveness';
         break; */
         case 'bryebm':
+        case 'pdhhbn':
         case 'bryhbm':
         case 'bryhbn':
         case 'brymbm':
         case 'brymbn':
         case 'bchhbm':
+        case 'pdhhgm':
+        case 'pdhmgm':
         case 'bluhbm':
+        case 'pdhmbm':
+        case 'pdhhbm':
+        case 'pdhmbn':
         case 'bjuhbm':
         case 'bjumbm':
+        case 'pjpegm':
+        case 'pjpebm':
+        case 'pdhmgn':
+        case 'pjphbn':
+        case 'pjpebn':
+        case 'pjpmgn':
+        case 'pjpmgm':
+        case 'pjpmbn':
+        case 'pjpmbm':
+        case 'pjphgm':
+        case 'pjpegn':
         case 'bkihbm':
+        case 'pjphbm':
+        case 'pjphgn':
+        case 'pdhhgn':
+        case 'bdhhbm':
+        case 'bdhhbn':
+        case 'bjphgm':
+        case 'bjphgn':
+        case 'bjphbm':
+        case 'bjphbn':
+        case 'bjpmbm':
+        case 'bjpmbn':
+        case 'b00hbm':
+        case 'b00hbn':
+        case 'b00mbm':
             character = 'JP';
             img.src = 'img/jp.png';
             bio.textContent = "Head of an international NGO responsible for many successful investment projects, and the man behind Nayshall's present prosperity. Has a beloved cat named Cybele.";

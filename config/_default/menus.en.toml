@@ -20,11 +20,11 @@
   url = "https://github.com/mx3th"
   weight = 20
 
-[[main]]
-  identifier = "twitch"
-  pre = "twitch"
-  url = "https://twitch.tv/"
-  weight = 30
+#[[main]]
+#  identifier = "twitch"
+#  pre = "twitch"
+#  url = "https://twitch.tv/"
+#  weight = 30
 
 #[[main]]
 #  name = "Parent"
