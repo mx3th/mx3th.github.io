@@ -41,11 +41,16 @@ form.addEventListener('submit', (event) => {
         case 'bjpebm':
         case 'bjpebn':
         case 'b00egm':
+        case 'rkiegm':
         case 'b00egn':
         case 'pryegm':
+        case 'rjumgm':
         case 'pryegn':
+        case 'rjuebm':
+        case 'rjuegm':
         case 'pryhgm':
         case 'pryhgn':
+        case 'rryegm':
         case 'prymgm':
         case 'prymgn':
         case 'pchegm':
@@ -53,8 +58,14 @@ form.addEventListener('submit', (event) => {
         case 'pchebn':
         case 'pcaegm':
         case 'pcaebm':
+        case 'rkiebm':
+        case 'rjaebm':
         case 'pchhbm':
         case 'pchmgm':
+        case 'rryegn':
+        case 'rkimgm':
+        case 'rryebm':
+        case 'rryebn':
         case 'pluegm':
             character = 'Ryu';
             img.src = 'img/ryu.png';
@@ -82,6 +93,7 @@ form.addEventListener('submit', (event) => {
         case 'bryhgf':
         case 'brymgf':
         case 'bchegf':
+        case 'rryegf':
         case 'bchegn':
         case 'bchhgf':
         case 'bchhgn':
@@ -89,21 +101,100 @@ form.addEventListener('submit', (event) => {
         case 'bchmgn':
         case 'bluhgf':
         case 'bjuhgf':
+        case 'rkiegf':
         case 'bjuhgn':
         case 'bdhegf':
+        case 'rkihgf':
+        case 'rryebf':
+        case 'rchmbn':
         case 'bdhhgf':
         case 'bdhhbf':
         case 'bdhmgf':
+        case 'rchmbf':
         case 'bjpegf':
+        case 'rchmgn':
         case 'bjpebf':
+        case 'rchmgf':
+        case 'rchhgn':
+        case 'rchhgf':
+        case 'rkihgn':
+        case 'rchhbn':
         case 'bjphgf':
+        case 'rryhgf':
+        case 'rchhbf':
+        case 'rchebf':
+        case 'rchebn':
+        case 'rchegf':
         case 'bjpmgf':
+        case 'rryhbf':
+        case 'rrymgf':
+        case 'rkiebf':
+        case 'rchegn':
+        case 'rrymbf':
+        case 'rjumgn':
+        case 'rluegf':
+        case 'rkiegn':
+        case 'rluegn':
+        case 'rluebf':
+        case 'rlumbf':
+        case 'rluebn':
+        case 'rlumbn':
+        case 'rlumgn':
+        case 'rluhgn':
+        case 'rjaegf':
+        case 'rluhbn':
+        case 'rkiebn':
+        case 'rlumgf':
+        case 'rjahgf':
+        case 'rmamgf':
+        case 'rjahgn':
+        case 'rluhgf':
+        case 'rjaegn':
+        case 'rkimgf':
         case 'bjpmgn':
+        case 'rluhbf':
         case 'b00hgf':
+        case 'rkimgn':
+        case 'rmamgn':
+        case 'r00hgn':
+        case 'rmaegf':
+        case 'rjuegf':
+        case 'rjumgf':
         case 'b00mgf':
+        case 'rmahgf':
+        case 'rmregf':
+        case 'rmaebf':
         case 'pchegn':
         case 'pchhgf':
+        case 'r00egf':
+        case 'rdhegf':
+        case 'rjamgf':
+        case 'rjuegn':
+        case 'rcahgf':
+        case 'rcahgn':
+        case 'rjamgn':
+        case 'rcaegn':
+        case 'rjpegf':
         case 'pchhgn':
+        case 'rjuhgf':
+        case 'rcaebf':
+        case 'rcaegf':
+        case 'rdhebf':
+        case 'rzaebf':
+        case 'rjphgf':
+        case 'rdhhgf':
+        case 'rjpmgf':
+        case 'rcaebn':
+        case 'rzamgf':
+        case 'rmrhgf':
+        case 'rdhmgf':
+        case 'r00hgf':
+        case 'rcamgn':
+        case 'rmrmgf':
+        case 'r00mgf':
+        case 'rcamgf':
+        case 'rzaegf':
+        case 'rzahgf':
         case 'pchhbn':
             character = 'Chun-Li';
             img.src = 'img/chunli.png';
@@ -112,32 +203,72 @@ form.addEventListener('submit', (event) => {
             videoSrc = 'https://www.youtube.com/embed/8bg-nvvI9D0';
             height = "5'7";
             weight = "It's a secret♡";
-            birthplace = 'United Kingdom';
+            birthplace = 'China';
             likes = 'Days off, shopping with Li-Fen';
             dislikes = 'Crime, indecisiveness';
         break;
         case 'bryhbf':
+        case 'rjphbf':
         case 'brymbf':
         case 'bchebf':
+        case 'rmrmbn':
+        case 'rjpmbf':
         case 'bchebn':
+        case 'rmrmbf':
+        case 'rmambf':
+        case 'rjpebf':
         case 'bchhbf':
+        case 'rcahbf':
         case 'bchhbn':
+        case 'rmahbf':
+        case 'rmrebf':
+        case 'r00mbf':
         case 'bchmbf':
+        case 'rcahbn':
         case 'bchmbn':
+        case 'rcambf':
+        case 'rmrhbf':
+        case 'rmrebn':
+        case 'rjahbn':
+        case 'rdhmbf':
+        case 'rzambf':
         case 'bluhbf':
+        case 'rdhhbf':
+        case 'rjuebn':
+        case 'rjuhbn':
+        case 'rmambn':
         case 'bjuhbf':
+        case 'rjahbf':
+        case 'rjuhbf':
         case 'bjuhbn':
+        case 'rzahbf':
+        case 'rjuebf':
+        case 'rjaebn':
+        case 'rjambf':
         case 'bjumgf':
         case 'bjumgn':
+        case 'rjambn':
         case 'bjumbf':
+        case 'rjumbn':
         case 'bjumbn':
+        case 'r00ebf':
+        case 'rkihbn':
+        case 'sdhhgf':
+        case 'rkihbf':
+        case 'rjaebf':
+        case 'rjumbf':
         case 'bjahbf':
+        case 'sdhhbf':
         case 'bjahbn':
         case 'bkihbf':
         case 'bkihbn':
+        case 'r00hbf':
         case 'bcahbf':
         case 'bcahbn':
+        case 'rkimbf':
+        case 'rkimbn':
         case 'bjphbf':
+        case 'sdhhbn':
         case 'bjpmbf':
         case 'b00hbf':
         case 'pchhbf':
@@ -185,11 +316,13 @@ form.addEventListener('submit', (event) => {
         case 'pcahbm':
         case 'b00ebm':
         case 'b00hgm':
+        case 'rluebm':
         case 'b00hgn':
         case 'b00mgm':
         case 'pcamgm':
         case 'b00mgn':
         case 'pchhgm':
+        case 'rluegm':
         case 'pchmbm':
         case 'pcambm':
         case 'pcahgm':
@@ -238,22 +371,96 @@ form.addEventListener('submit', (event) => {
         case 'pjuhgm':
         case 'pjuhbn':
         case 'pjumgn':
+        case 'schhbm':
         case 'pjumgm':
+        case 'schmgm':
         case 'pjumbn':
+        case 'smamgm':
         case 'pjaegm':
         case 'pjaebm':
         case 'pjaegn':
         case 'pjaebn':
         case 'pjahgn':
+        case 'sjuhbm':
+        case 'sjaegn':
         case 'pjamgn':
+        case 'sjahgn':
+        case 'schmbm':
+        case 'sjahbn':
+        case 'sjahbm':
+        case 'sjamgm':
+        case 'schhgm':
+        case 'sjaebm':
+        case 'sjumgm':
+        case 'sjambn':
+        case 'sjumbm':
+        case 'sjamgn':
+        case 'sjambm':
+        case 'sjaegm':
         case 'pjuhgn':
+        case 'sryegm':
+        case 'sjahgm':
+        case 'sryebm':
+        case 'sryhgm':
+        case 'schebm':
+        case 'sjaebn':
+        case 'sjuhgm':
+        case 'sryhbm':
+        case 'smaegm':
+        case 'smahbm':
+        case 'schegm':
+        case 'sluegm':
+        case 'srymgm':
+        case 'srymbm':
         case 'pjambm':
         case 'pjambn':
+        case 'sjuegm':
+        case 'sdhmgm':
+        case 'sjuebm':
+        case 'sdhmbm':
         case 'pkimbm':
+        case 'scaegm':
+        case 'scaebm':
+        case 'scahgm':
+        case 'scahbm':
+        case 'scambm':
+        case 'scamgm':
+        case 'sluebm':
+        case 'sluhgm':
         case 'pjamgm':
+        case 'smaebm':
+        case 'slumgm':
         case 'pkimgm':
+        case 'slumbm':
+        case 'skiegm':
+        case 's00ebm':
+        case 's00egm':
+        case 'smrhbm':
+        case 'smrhgn':
+        case 's00mbn':
+        case 's00mgm':
+        case 's00mbm':
+        case 'smambm':
+        case 'smrmgm':
+        case 'sluhbm':
+        case 'smrebm':
+        case 'smrhgm':
+        case 's00hbm':
+        case 's00hgm':
+        case 'sdhebm':
+        case 'smregm':
+        case 'smrmbm':
         case 'pjahbn':
         case 'pjahgm':
+        case 'skiebm':
+        case 'skihbm':
+        case 'sdhegm':
+        case 'smahgm':
+        case 'skihgm':
+        case 'szaegm':
+        case 'szahgm':
+        case 'skimbm':
+        case 'skimgm':
             character = 'Jamie';
             img.src = 'img/jamie.png';
             bio.textContent = "This self-styled Chinatown peacekeeper aspires to the example set by Yun and Yang, the Twin Dragons. An expert dancer, Jamie places justice and friendship above all else, defending his town with martial skill.";
@@ -272,21 +479,55 @@ form.addEventListener('submit', (event) => {
         case 'bkiegf':
         case 'bkiegn':
         case 'bkiebf':
+        case 'skimgn':
         case 'pkimgn':
         case 'pkimgf':
         case 'pkimbn':
         case 'pkimbf':
+        case 'skimbn':
         case 'bkiebn':
         case 'bkihgf':
+        case 'skihgf':
+        case 'skihgn':
+        case 'skimbf':
         case 'bkihgn':
         case 'bkimgf':
         case 'bkimgn':
+        case 'skihbn':
+        case 'skihbf':
+        case 'scamgf':
+        case 'skimgf':
         case 'bkimbf':
         case 'pkihgf':
         case 'pkihbf':
         case 'pkihbn':
         case 'pkihgn':
+        case 's00hgf':
+        case 'smrhbf':
+        case 'sluhbf':
+        case 's00hbf':
+        case 's00hgn':
+        case 's00hbn':
+        case 'smrhgf':
+        case 's00mbf':
+        case 'sluhgn':
+        case 'smrhbn':
+        case 's00mgn':
+        case 's00mgf':
+        case 'sluhbn':
+        case 'sjphbf':
         case 'bkimbn':
+        case 'sjumgn':
+        case 'sjumgf':
+        case 'sjahgf':
+        case 'sjumbn':
+        case 'sjahbf':
+        case 'sjpmbf':
+        case 'sjuhgn':
+        case 'sjuhgf':
+        case 'sjpmgf':
+        case 'sluhgf':
+        case 'sjumbf':
         case 'bcahgf':
         case 'bcahgn':
             character = 'Kimberly';
@@ -296,29 +537,109 @@ form.addEventListener('submit', (event) => {
             videoSrc = `https://www.youtube.com/embed/06E2cBONuQw`;
             height = "5'6";
             weight = "134 lbs";
-            birthplace = "Birthplace";
+            birthplace = "United States of America";
             likes = "80's music, sneakers, large numbers";
             dislikes = "Tear-jerker movies";
         break;
         case 'bluegf':
+        case 'skiebn':
+        case 'skiegn':
+        case 'skiebf':
         case 'blumgf':
         case 'bjuegf':
+        case 'skiegf':
         case 'bjuegn':
         case 'bjaegf':
         case 'bjaebf':
+        case 'slumbf':
+        case 'sjuhbn':
+        case 'sjaebf':
+        case 'sryegf':
+        case 'sjamgf':
+        case 'sjuhbf':
+        case 'sjambf':
+        case 'slumbn':
+        case 'sryegn':
+        case 'sryhbn':
+        case 'sjaegf':
+        case 'slumgn':
+        case 'slumgf':
+        case 'srymgf':
+        case 'sryhgn':
+        case 'sryebf':
         case 'bcaegf':
+        case 'sryebn':
         case 'bcaegn':
+        case 'srymgn':
         case 'bcaebf':
         case 'bcaebn':
+        case 'sryhbf':
+        case 'schegf':
+        case 'schegn':
+        case 'sluebn':
+        case 'schebf':
+        case 'sluegn':
+        case 'sluebf':
+        case 'sluegf':
+        case 'schebn':
+        case 'schmbf':
+        case 'schmbn':
+        case 'schmgn':
+        case 'schhgf':
+        case 'schhgn':
+        case 'schhbf':
+        case 'schhbn':
+        case 'sryhgf':
+        case 'scaegn':
+        case 'schmgf':
         case 'bcamgf':
+        case 'scahgn':
+        case 'scahgf':
+        case 'scaegf':
+        case 'scahbn':
         case 'bcamgn':
+        case 'scaebf':
+        case 'scahbf':
+        case 'scaebn':
+        case 'sdhegf':
+        case 'srymbf':
+        case 'sdhegn':
         case 'bcambf':
         case 'bcambn':
         case 'b00egf':
+        case 'scambn':
+        case 'sjphgf':
+        case 'smregf':
+        case 'srymbn':
+        case 'sdhebf':
+        case 'sjpebf':
+        case 'sjpegf':
+        case 'sdhebn':
+        case 'smrmbf':
+        case 'scambf':
+        case 'smrebf':
         case 'pcaegf':
+        case 'smrmbn':
+        case 'smregn':
         case 'pcaegn':
         case 'pcaebf':
+        case 'smrebn':
+        case 's00ebn':
+        case 'sdhmgn':
+        case 'sdhmgf':
+        case 's00egf':
+        case 's00egn':
+        case 's00ebf':
+        case 'sjuegf':
+        case 'sjuegn':
+        case 'sdhmbn':
+        case 'sjuebf':
+        case 'sjuebn':
         case 'pcaebn':
+        case 'smrmgf':
+        case 'scamgn':
+        case 'smrmgn':
+        case 'sdhmbf':
         case 'pcahgf':
         case 'pcahgn':
         case 'pcahbf':
@@ -371,6 +692,7 @@ form.addEventListener('submit', (event) => {
         case 'bmahgf':
         case 'bmahgn':
         case 'bmahbf':
+        case 'szahgf':
         case 'bmahbn':
         case 'pkiebf':
         case 'bmamgf':
@@ -392,6 +714,7 @@ form.addEventListener('submit', (event) => {
         case 'pchmgn':
         case 'pchmbf':
         case 'pchmbn':
+        case 'szahgn':
         case 'pluhgf':
         case 'pjahbf':
         case 'pjaegf':
@@ -414,33 +737,54 @@ form.addEventListener('submit', (event) => {
         case 'pjumbf':
         case 'pkiegn':
         case 'pkiegf':
+        case 'szaegf':
         case 'pzamgf':
+        case 'smambf':
+        case 'szahbn':
         case 'pjuhgf':
         case 'pzahbf':
+        case 'szamgn':
         case 'pjamgf':
         case 'pjuebf':
+        case 'smambn':
         case 'pzaebf':
         case 'pdhebf':
+        case 'szamgf':
+        case 'szaegn':
+        case 'szahbf':
         case 'pzaegf':
         case 'pzambf':
         case 'pjuhbf':
         case 'pzahgf':
         case 'p00mgf':
+        case 'szambf':
         case 'p00hgn':
+        case 'smaegf':
         case 'pdhegf':
         case 'pjpegf':
+        case 'smamgn':
+        case 'smahgn':
         case 'pjumgf':
         case 'p00mbn':
         case 'pdhhgf':
+        case 'smamgf':
+        case 'smaegn':
         case 'pdhhbf':
         case 'p00mbf':
+        case 'smaebn':
+        case 'smaebf':
+        case 'smahgf':
         case 'p00egf':
         case 'pjphgf':
         case 'pjpmgf':
         case 'p00hgf':
         case 'pdhmgf':
+        case 'smahbn':
+        case 'smahbf':
         case 'p00mgn':
+        case 'szaebf':
         case 'pdhmbf':
+        case 'szaebn':
         case 'pjpmbf':
         case 'pjphbf':
             character = 'Manon';
@@ -516,19 +860,24 @@ form.addEventListener('submit', (event) => {
         case 'bzaegn':
         case 'pmrhgm':
         case 'pmrhgn':
+        case 'szahbm':
         case 'pzamgm':
         case 'pmrhbm':
         case 'pzahbn':
         case 'pmrebm':
+        case 'szaebm':
         case 'bzaebn':
         case 'bzahgm':
         case 'bzahgn':
+        case 'szambn':
         case 'bzahbm':
         case 'pmregm':
+        case 'szamgm':
         case 'pmrmbm':
         case 'pzaegn':
         case 'pmrmgm':
         case 'bzahbn':
+        case 'szambm':
         case 'pzahgm':
         case 'bzamgm':
         case 'bzamgn':
@@ -594,14 +943,76 @@ form.addEventListener('submit', (event) => {
         break;
         case 'bchebm':
         case 'bdhegn':
+        case 'rchegm':
         case 'bdhebm':
+        case 'rmaebm':
         case 'bdhebn':
         case 'bdhhgm':
         case 'bdhhgn':
+        case 'rryhgn':
+        case 'rmaebn':
         case 'bdhmgm':
+        case 'rchhbm':
+        case 'rmahgm':
+        case 'rzaegn':
+        case 'rluhgm':
+        case 'rchmgm':
+        case 'rryhgm':
+        case 'rchmbm':
+        case 'rjamgm':
+        case 'rzahgn':
+        case 'rzaebm':
+        case 'sdhhgm':
+        case 'rzaebn':
+        case 'rzamgn':
+        case 'rzahgm':
+        case 'rchhgm':
+        case 'rmaegn':
+        case 'rzamgm':
+        case 'rlumgm':
+        case 'rzaegm':
+        case 'rdhebn':
+        case 'rdhhgn':
+        case 'rmaegm':
         case 'bdhmgn':
+        case 'rkihgm':
+        case 'rjuhgn':
+        case 'rmamgm':
+        case 'rchebm':
+        case 'rjuhgm':
+        case 'sdhhgn':
         case 'bdhmbm':
+        case 'rdhegn':
+        case 'rdhegm':
+        case 'rmahgn':
+        case 'sdhhbm':
+        case 'rdhebm':
+        case 'rjaegm':
+        case 'rcamgm':
+        case 'rdhhgm':
+        case 'rcaebm':
+        case 'rdhmgn':
+        case 'rryhbn':
+        case 'rmregm':
+        case 'rmregn':
+        case 'rmrmgm':
+        case 'r00egn':
+        case 'rmrhgm':
+        case 'rcahgm':
+        case 'r00egm':
+        case 'rcaegm':
+        case 'rmrhgn':
+        case 'rdhmgm':
+        case 'r00ebm':
+        case 'rrymgm':
+        case 'r00mgm':
+        case 'rrymgn':
+        case 'rmrmgn':
+        case 'r00mgn':
+        case 'r00ebn':
+        case 'rjpegm':
         case 'bdhmbn':
+        case 'rjpegn':
             character = 'Dhalsim';
             img.src = 'img/dhalsim.png';
             bio.textContent = "A monk and yoga master from India who has served as a guide for countless suffering souls. Prefers to avoid conflict when possible, but his innate hatred of evil compels him to dispense stern justice.";
@@ -653,42 +1064,99 @@ form.addEventListener('submit', (event) => {
         case 'pdhhbn':
         case 'bryhbm':
         case 'bryhbn':
+        case 'rdhhbm':
+        case 'r00mbn':
+        case 'rmahbn':
+        case 'r00mbm':
+        case 'rmahbm':
         case 'brymbm':
         case 'brymbn':
+        case 'rjphgm':
+        case 'rjphbm':
+        case 'r00hgm':
         case 'bchhbm':
+        case 'rdhmbn':
+        case 'rjphgn':
+        case 'rcambm':
+        case 'rcambn':
+        case 'rjphbn':
+        case 'rjpebm':
+        case 'rjpmbm':
+        case 'rjpebn':
         case 'pdhhgm':
+        case 'rjpmgm':
+        case 'rmambm':
+        case 'rcahbm':
+        case 'rjpmgn':
+        case 'rdhhbn':
+        case 'rjpmbn':
+        case 'rryhbm':
+        case 'rdhmbm':
+        case 'rzahbm':
+        case 'rluhbm':
+        case 'rmrmbm':
         case 'pdhmgm':
         case 'bluhbm':
         case 'pdhmbm':
+        case 'rzambm':
         case 'pdhhbm':
+        case 'rrymbn':
         case 'pdhmbn':
         case 'bjuhbm':
         case 'bjumbm':
         case 'pjpegm':
         case 'pjpebm':
         case 'pdhmgn':
+        case 'rkihbm':
+        case 'rrymbm':
         case 'pjphbn':
+        case 'rmrebm':
+        case 'rmrhbn':
         case 'pjpebn':
+        case 'rmrhbm':
+        case 'sjpegm':
         case 'pjpmgn':
         case 'pjpmgm':
         case 'pjpmbn':
+        case 'sjphbm':
+        case 'rlumbm':
+        case 'sjpmgn':
+        case 'sjphbn':
+        case 'sjpebm':
+        case 'sjpmbm':
         case 'pjpmbm':
         case 'pjphgm':
+        case 'sjphgn':
         case 'pjpegn':
+        case 'sjpmbn':
+        case 'sjpegn':
+        case 'sjpebn':
         case 'bkihbm':
+        case 'sjpmgm':
         case 'pjphbm':
+        case 'sjphgm':
+        case 'rzambn':
+        case 'rjambm':
         case 'pjphgn':
+        case 'rjumbm':
+        case 'rkimbm':
+        case 'rjuhbm':
         case 'pdhhgn':
         case 'bdhhbm':
+        case 'rzahbn':
         case 'bdhhbn':
         case 'bjphgm':
         case 'bjphgn':
         case 'bjphbm':
+        case 'rjahbm':
+        case 'r00hbm':
         case 'bjphbn':
+        case 'rjahgm':
         case 'bjpmbm':
         case 'bjpmbn':
         case 'b00hbm':
         case 'b00hbn':
+        case 'r00hbn':
         case 'b00mbm':
             character = 'JP';
             img.src = 'img/jp.png';
