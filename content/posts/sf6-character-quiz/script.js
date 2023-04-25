@@ -131,13 +131,16 @@ form.addEventListener('submit', (event) => {
         case 'bjumgn':
         case 'bjumbf':
         case 'bjumbn':
+        case 'sdhhgf':
         case 'bjahbf':
+        case 'sdhhbf':
         case 'bjahbn':
         case 'bkihbf':
         case 'bkihbn':
         case 'bcahbf':
         case 'bcahbn':
         case 'bjphbf':
+        case 'sdhhbn':
         case 'bjpmbf':
         case 'b00hbf':
         case 'pchhbf':
@@ -238,22 +241,96 @@ form.addEventListener('submit', (event) => {
         case 'pjuhgm':
         case 'pjuhbn':
         case 'pjumgn':
+        case 'schhbm':
         case 'pjumgm':
+        case 'schmgm':
         case 'pjumbn':
+        case 'smamgm':
         case 'pjaegm':
         case 'pjaebm':
         case 'pjaegn':
         case 'pjaebn':
         case 'pjahgn':
+        case 'sjuhbm':
+        case 'sjaegn':
         case 'pjamgn':
+        case 'sjahgn':
+        case 'schmbm':
+        case 'sjahbn':
+        case 'sjahbm':
+        case 'sjamgm':
+        case 'schhgm':
+        case 'sjaebm':
+        case 'sjumgm':
+        case 'sjambn':
+        case 'sjumbm':
+        case 'sjamgn':
+        case 'sjambm':
+        case 'sjaegm':
         case 'pjuhgn':
+        case 'sryegm':
+        case 'sjahgm':
+        case 'sryebm':
+        case 'sryhgm':
+        case 'schebm':
+        case 'sjaebn':
+        case 'sjuhgm':
+        case 'sryhbm':
+        case 'smaegm':
+        case 'smahbm':
+        case 'schegm':
+        case 'sluegm':
+        case 'srymgm':
+        case 'srymbm':
         case 'pjambm':
         case 'pjambn':
+        case 'sjuegm':
+        case 'sdhmgm':
+        case 'sjuebm':
+        case 'sdhmbm':
         case 'pkimbm':
+        case 'scaegm':
+        case 'scaebm':
+        case 'scahgm':
+        case 'scahbm':
+        case 'scambm':
+        case 'scamgm':
+        case 'sluebm':
+        case 'sluhgm':
         case 'pjamgm':
+        case 'smaebm':
+        case 'slumgm':
         case 'pkimgm':
+        case 'slumbm':
+        case 'skiegm':
+        case 's00ebm':
+        case 's00egm':
+        case 'smrhbm':
+        case 'smrhgn':
+        case 's00mbn':
+        case 's00mgm':
+        case 's00mbm':
+        case 'smambm':
+        case 'smrmgm':
+        case 'sluhbm':
+        case 'smrebm':
+        case 'smrhgm':
+        case 's00hbm':
+        case 's00hgm':
+        case 'sdhebm':
+        case 'smregm':
+        case 'smrmbm':
         case 'pjahbn':
         case 'pjahgm':
+        case 'skiebm':
+        case 'skihbm':
+        case 'sdhegm':
+        case 'smahgm':
+        case 'skihgm':
+        case 'szaegm':
+        case 'szahgm':
+        case 'skimbm':
+        case 'skimgm':
             character = 'Jamie';
             img.src = 'img/jamie.png';
             bio.textContent = "This self-styled Chinatown peacekeeper aspires to the example set by Yun and Yang, the Twin Dragons. An expert dancer, Jamie places justice and friendship above all else, defending his town with martial skill.";
@@ -272,21 +349,55 @@ form.addEventListener('submit', (event) => {
         case 'bkiegf':
         case 'bkiegn':
         case 'bkiebf':
+        case 'skimgn':
         case 'pkimgn':
         case 'pkimgf':
         case 'pkimbn':
         case 'pkimbf':
+        case 'skimbn':
         case 'bkiebn':
         case 'bkihgf':
+        case 'skihgf':
+        case 'skihgn':
+        case 'skimbf':
         case 'bkihgn':
         case 'bkimgf':
         case 'bkimgn':
+        case 'skihbn':
+        case 'skihbf':
+        case 'scamgf':
+        case 'skimgf':
         case 'bkimbf':
         case 'pkihgf':
         case 'pkihbf':
         case 'pkihbn':
         case 'pkihgn':
+        case 's00hgf':
+        case 'smrhbf':
+        case 'sluhbf':
+        case 's00hbf':
+        case 's00hgn':
+        case 's00hbn':
+        case 'smrhgf':
+        case 's00mbf':
+        case 'sluhgn':
+        case 'smrhbn':
+        case 's00mgn':
+        case 's00mgf':
+        case 'sluhbn':
+        case 'sjphbf':
         case 'bkimbn':
+        case 'sjumgn':
+        case 'sjumgf':
+        case 'sjahgf':
+        case 'sjumbn':
+        case 'sjahbf':
+        case 'sjpmbf':
+        case 'sjuhgn':
+        case 'sjuhgf':
+        case 'sjpmgf':
+        case 'sluhgf':
+        case 'sjumbf':
         case 'bcahgf':
         case 'bcahgn':
             character = 'Kimberly';
@@ -301,24 +412,104 @@ form.addEventListener('submit', (event) => {
             dislikes = "Tear-jerker movies";
         break;
         case 'bluegf':
+        case 'skiebn':
+        case 'skiegn':
+        case 'skiebf':
         case 'blumgf':
         case 'bjuegf':
+        case 'skiegf':
         case 'bjuegn':
         case 'bjaegf':
         case 'bjaebf':
+        case 'slumbf':
+        case 'sjuhbn':
+        case 'sjaebf':
+        case 'sryegf':
+        case 'sjamgf':
+        case 'sjuhbf':
+        case 'sjambf':
+        case 'slumbn':
+        case 'sryegn':
+        case 'sryhbn':
+        case 'sjaegf':
+        case 'slumgn':
+        case 'slumgf':
+        case 'srymgf':
+        case 'sryhgn':
+        case 'sryebf':
         case 'bcaegf':
+        case 'sryebn':
         case 'bcaegn':
+        case 'srymgn':
         case 'bcaebf':
         case 'bcaebn':
+        case 'sryhbf':
+        case 'schegf':
+        case 'schegn':
+        case 'sluebn':
+        case 'schebf':
+        case 'sluegn':
+        case 'sluebf':
+        case 'sluegf':
+        case 'schebn':
+        case 'schmbf':
+        case 'schmbn':
+        case 'schmgn':
+        case 'schhgf':
+        case 'schhgn':
+        case 'schhbf':
+        case 'schhbn':
+        case 'sryhgf':
+        case 'scaegn':
+        case 'schmgf':
         case 'bcamgf':
+        case 'scahgn':
+        case 'scahgf':
+        case 'scaegf':
+        case 'scahbn':
         case 'bcamgn':
+        case 'scaebf':
+        case 'scahbf':
+        case 'scaebn':
+        case 'sdhegf':
+        case 'srymbf':
+        case 'sdhegn':
         case 'bcambf':
         case 'bcambn':
         case 'b00egf':
+        case 'scambn':
+        case 'sjphgf':
+        case 'smregf':
+        case 'srymbn':
+        case 'sdhebf':
+        case 'sjpebf':
+        case 'sjpegf':
+        case 'sdhebn':
+        case 'smrmbf':
+        case 'scambf':
+        case 'smrebf':
         case 'pcaegf':
+        case 'smrmbn':
+        case 'smregn':
         case 'pcaegn':
         case 'pcaebf':
+        case 'smrebn':
+        case 's00ebn':
+        case 'sdhmgn':
+        case 'sdhmgf':
+        case 's00egf':
+        case 's00egn':
+        case 's00ebf':
+        case 'sjuegf':
+        case 'sjuegn':
+        case 'sdhmbn':
+        case 'sjuebf':
+        case 'sjuebn':
         case 'pcaebn':
+        case 'smrmgf':
+        case 'scamgn':
+        case 'smrmgn':
+        case 'sdhmbf':
         case 'pcahgf':
         case 'pcahgn':
         case 'pcahbf':
@@ -371,6 +562,7 @@ form.addEventListener('submit', (event) => {
         case 'bmahgf':
         case 'bmahgn':
         case 'bmahbf':
+        case 'szahgf':
         case 'bmahbn':
         case 'pkiebf':
         case 'bmamgf':
@@ -392,6 +584,7 @@ form.addEventListener('submit', (event) => {
         case 'pchmgn':
         case 'pchmbf':
         case 'pchmbn':
+        case 'szahgn':
         case 'pluhgf':
         case 'pjahbf':
         case 'pjaegf':
@@ -414,33 +607,54 @@ form.addEventListener('submit', (event) => {
         case 'pjumbf':
         case 'pkiegn':
         case 'pkiegf':
+        case 'szaegf':
         case 'pzamgf':
+        case 'smambf':
+        case 'szahbn':
         case 'pjuhgf':
         case 'pzahbf':
+        case 'szamgn':
         case 'pjamgf':
         case 'pjuebf':
+        case 'smambn':
         case 'pzaebf':
         case 'pdhebf':
+        case 'szamgf':
+        case 'szaegn':
+        case 'szahbf':
         case 'pzaegf':
         case 'pzambf':
         case 'pjuhbf':
         case 'pzahgf':
         case 'p00mgf':
+        case 'szambf':
         case 'p00hgn':
+        case 'smaegf':
         case 'pdhegf':
         case 'pjpegf':
+        case 'smamgn':
+        case 'smahgn':
         case 'pjumgf':
         case 'p00mbn':
         case 'pdhhgf':
+        case 'smamgf':
+        case 'smaegn':
         case 'pdhhbf':
         case 'p00mbf':
+        case 'smaebn':
+        case 'smaebf':
+        case 'smahgf':
         case 'p00egf':
         case 'pjphgf':
         case 'pjpmgf':
         case 'p00hgf':
         case 'pdhmgf':
+        case 'smahbn':
+        case 'smahbf':
         case 'p00mgn':
+        case 'szaebf':
         case 'pdhmbf':
+        case 'szaebn':
         case 'pjpmbf':
         case 'pjphbf':
             character = 'Manon';
@@ -516,19 +730,24 @@ form.addEventListener('submit', (event) => {
         case 'bzaegn':
         case 'pmrhgm':
         case 'pmrhgn':
+        case 'szahbm':
         case 'pzamgm':
         case 'pmrhbm':
         case 'pzahbn':
         case 'pmrebm':
+        case 'szaebm':
         case 'bzaebn':
         case 'bzahgm':
         case 'bzahgn':
+        case 'szambn':
         case 'bzahbm':
         case 'pmregm':
+        case 'szamgm':
         case 'pmrmbm':
         case 'pzaegn':
         case 'pmrmgm':
         case 'bzahbn':
+        case 'szambm':
         case 'pzahgm':
         case 'bzamgm':
         case 'bzamgn':
@@ -599,8 +818,11 @@ form.addEventListener('submit', (event) => {
         case 'bdhhgm':
         case 'bdhhgn':
         case 'bdhmgm':
+        case 'sdhhgm':
         case 'bdhmgn':
+        case 'sdhhgn':
         case 'bdhmbm':
+        case 'sdhhbm':
         case 'bdhmbn':
             character = 'Dhalsim';
             img.src = 'img/dhalsim.png';
@@ -669,14 +891,26 @@ form.addEventListener('submit', (event) => {
         case 'pdhmgn':
         case 'pjphbn':
         case 'pjpebn':
+        case 'sjpegm':
         case 'pjpmgn':
         case 'pjpmgm':
         case 'pjpmbn':
+        case 'sjphbm':
+        case 'sjpmgn':
+        case 'sjphbn':
+        case 'sjpebm':
+        case 'sjpmbm':
         case 'pjpmbm':
         case 'pjphgm':
+        case 'sjphgn':
         case 'pjpegn':
+        case 'sjpmbn':
+        case 'sjpegn':
+        case 'sjpebn':
         case 'bkihbm':
+        case 'sjpmgm':
         case 'pjphbm':
+        case 'sjphgm':
         case 'pjphgn':
         case 'pdhhgn':
         case 'bdhhbm':
