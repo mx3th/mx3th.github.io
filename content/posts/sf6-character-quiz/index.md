@@ -119,7 +119,7 @@ Choose the option that best suits you.
 
   <label for="dhalsim">
   <img src="chara/dhalsim.png" class="chara">
-  <input type="radio" id="dhalsim" name="q3" value="da">
+  <input type="radio" id="dhalsim" name="q3" value="dh">
   </label>
 
   <label for="marisa">
