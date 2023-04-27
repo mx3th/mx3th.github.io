@@ -1,7 +1,7 @@
 ---
 title: "Asahi Linux Minimal on Apple silicon."
 date: 2023-03-22T21:36:25Z
-draft: true
+draft: false
 description: "Setting up a tiling window manager after a minimal install of Asahi Linux on an M2 Macbook Air."
 tags: ["Linux", "Guides"]
 series: ["Linux"]
