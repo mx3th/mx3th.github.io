@@ -1,7 +1,7 @@
 ---
 title: "My Street Fighter V Matches"
 date: 2023-04-19T15:52:25Z
-draft: false
+draft: true
 description: "Some of my highlights during my SFV career."
 tags: ["Fighting Games", "Street Fighter", "Esports"]
 series: ["Street Fighter"]
